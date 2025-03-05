@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.dangthanhtu.backend;
 
 import org.springframework.web.bind.annotation.*;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/hello")
+@RequestMapping("/demo")
 public class HelloController {
 
     private List<String> values = new ArrayList<>();
