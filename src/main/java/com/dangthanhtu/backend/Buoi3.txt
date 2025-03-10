@@ -1,0 +1,12 @@
+Transactions:
+    -Một transaction là một đơn vị công việc được thực hiện trên cơ sở dữ liệu. 
+    -Nó đảm bảo rằng tất cả các thao tác bên trong đều thành công hoặc, nếu có lỗi xảy ra, toàn bộ thao tác sẽ được rollback để dữ liệu không bị lỗi.
+Procedure:
+    -Stored Procedure là một đoạn mã SQL được lưu trữ và thực thi trên cơ sở dữ liệu. 
+    -Nó cho phép đóng gói một hoặc nhiều câu lệnh SQL thành một đơn vị logic, giúp giảm bớt sự phức tạp và tăng hiệu năng khi truy cập dữ liệu.
+Trigger:
+    -Là một đoạn mã được tự động thực thi khi có một sự kiện nhất định xảy ra trên cơ sở dữ liệu (insert, update, delete).
+    -Trigger có thể dùng để thực hiện các kiểm tra, tự động ghi log, hoặc duy trì tính toàn vẹn của dữ liệu.
+Index:
+    -Là một cấu trúc dữ liệu được sử dụng để tăng tốc độ truy xuất dữ liệu từ bảng trong cơ sở dữ liệu. 
+    -Nó tương tự như mục lục trong sách, giúp hệ thống truy vấn nhanh chóng tới dữ liệu cần thiết mà không phải quét toàn bộ bảng.
